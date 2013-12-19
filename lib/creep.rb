@@ -107,7 +107,7 @@ class Creep
     end
   end
 
-  # Scrape
+  # Scrape website by mining each unmined key in collection 
   # @return [Hash] the full collection of mined data
   def scrape
     progress = 0
