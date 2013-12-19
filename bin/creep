@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
+require "awesome_print"
 require_relative '../lib/creep.rb'
 
 c = Creep.new(*ARGV)
 c.scrape
 
-puts c.data unless c == FALSE
+ap c.data unless c == FALSE
