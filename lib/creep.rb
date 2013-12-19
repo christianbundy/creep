@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-# Cartographically burglarize your favorite destination
+# Cartographically burglarize your favorite internet destination
 class Creep
   attr_reader :data, :success, :failure
 
